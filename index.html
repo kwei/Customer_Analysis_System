@@ -27,12 +27,18 @@
 			    <div class="content">
 				    <div class="ts grid">
 					    <div class="eight wide column">
-					    	<img class="ts link medium bordered image" src="./img/12.jpg">
+					    	<button onclick="Func_choose('left')" class="ts link medium bordered image">
+					    		<img src="./img/12.jpg">
+					    	</button>
 					    </div>
 					    <div class="eight wide column">
-					    	<img class="ts link medium bordered image" src="./img/44.jpg">
+					    	<button onclick="Func_choose('right')" class="ts link medium bordered image">
+					    		<img src="./img/44.jpg">
+					    	</button>
 					    </div>
 					</div>
+					<p>You choose : </p>
+					<p id="chosen"></p>
 			    </div>
 			</div>
 		</div>
@@ -41,6 +47,13 @@
 			<p>&copy; 2018. KW <br> Designed by <a href="https://github.com/kwei/Customer_Analysis_System">KW &mdash; github.com</a> </p>
 		</div>
 	</div>
+
+
+	<script>
+		function Func_choose(side) {
+		    document.getElementById("chosen").innerHTML = "The " + side + " picture.";
+		}
+	</script>
 
 </body>
 </html>
