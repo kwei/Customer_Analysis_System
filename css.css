@@ -21,3 +21,62 @@
 	text-align: center;
 	line-height: 80px;
 }
+
+@font-face{
+	font-family: 'titan-one_font';
+	src : url('./fontStyle/titan-one_font/TitanOne-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'teutonic_font';
+	src : url('./fontStyle/teutonic_font/teutonic1.ttf');
+	src : url('./fontStyle/teutonic_font/teutonic2.ttf');
+	src : url('./fontStyle/teutonic_font/teutonic3.ttf');
+	src : url('./fontStyle/teutonic_font/teutonic4.ttf');
+}
+
+@font-face{
+	font-family: 'sail_font';
+	src : url('./fontStyle/sail_font/Sail-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'rochester_font';
+	src : url('./fontStyle/rochester_font/Rochester-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'pinyon-script_font';
+	src : url('./fontStyle/pinyon-script_font/PinyonScript-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'merienda-one_font';
+	src : url('./fontStyle/merienda-one_font/Merienda-Regular.ttf');
+	src : url('./fontStyle/merienda-one_font/Merienda-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'kingthings_spikeless_font';
+	src : url('./fontStyle/kingthings_spikeless_font/Kingthings_Spikeless.ttf');
+}
+
+@font-face{
+	font-family: 'haymaker_font';
+	src : url('./fontStyle/haymaker_font/Haymaker.ttf');
+}
+
+@font-face{
+	font-family: 'berkshire-swash_font';
+	src : url('./fontStyle/berkshire-swash_font/BerkshireSwash-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'ayuma2yk';
+	src : url('./fontStyle/ayuma2yk/ayuma2yk.ttf');
+}
+
+@font-face{
+	font-family: 'abengraved';
+	src : url('./fontStyle/abengraved/abengraved/AB_Engraved_by_redfonts.ttf');
+}
